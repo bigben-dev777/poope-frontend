@@ -9,7 +9,7 @@ import * as React from "react";
 interface Props {
   data: {
     id: string;
-    // title: string;
+    title: string;
     content: string;
   }[];
 }
