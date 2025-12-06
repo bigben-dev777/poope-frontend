@@ -8,8 +8,8 @@ import * as React from "react";
 
 interface Props {
   data: {
-    id: string;
-    title: string;
+    // id: string;
+    // title: string;
     content: string;
   }[];
 }
