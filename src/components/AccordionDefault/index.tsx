@@ -17,9 +17,9 @@ interface Props {
 export default function AccordionDefault({ data }: Props) {
   const [curKey, setCurKey] = React.useState<string>("");
 
-  // const handleClick = (itemKey: string) => () => {
-  //   setCurKey(itemKey);
-  // };
+  const handleClick = (itemKey: string) => () => {
+    setCurKey(itemKey);
+  };
 
   return (
     <Box>
