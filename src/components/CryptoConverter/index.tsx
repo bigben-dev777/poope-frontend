@@ -51,14 +51,14 @@ const StyledInputBase = styled(InputBase)({
   fontWeight: 500,
 });
 
-const StyledCloseButton = styled(Button)({
-  position: "absolute",
-  top: "10px",
-  right: "10px",
-  flexDirection: "row",
-  alignItems: "center",
-  gap: 16,
-});
+// const StyledCloseButton = styled(Button)({
+//   position: "absolute",
+//   top: "10px",
+//   right: "10px",
+//   flexDirection: "row",
+//   alignItems: "center",
+//   gap: 16,
+// });
 
 const CryptoConverter = () => {
   const [usdtAmount, setUsdtAmount] = useState<number>(0);
