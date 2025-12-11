@@ -1,23 +1,23 @@
 import { Button, Paper, Stack, Typography } from "@mui/material";
 
-const initData = [
-  {
-    title: "Email",
-    desc: "help@poope.com",
-  },
-  {
-    title: "Phone",
-    desc: "+1 21865214",
-  },
-  {
-    title: "Address",
-    desc: "Boulevard 2442 Caava, California",
-  },
-  {
-    title: "Contact us now",
-    button: "SEND US A MESSAGE",
-  },
-];
+// const initData = [
+//   {
+//     title: "Email",
+//     desc: "help@poope.com",
+//   },
+//   {
+//     title: "Phone",
+//     desc: "+1 21865214",
+//   },
+//   {
+//     title: "Address",
+//     desc: "Boulevard 2442 Caava, California",
+//   },
+//   {
+//     title: "Contact us now",
+//     button: "SEND US A MESSAGE",
+//   },
+// ];
 
 const ContactCard = () => {
   return (
