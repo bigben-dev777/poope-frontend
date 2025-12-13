@@ -24,7 +24,7 @@ const BootstrapDialog = styled(Dialog)(({ theme }) => ({
 
 const WalletButton = styled(Button)(({ theme }) => ({
   borderRadius: "100px",
-  background: theme.palette.mode === "light" ? "#EED6B7" : "#141414",
+  // background: theme.palette.mode === "light" ? "#EED6B7" : "#141414",
   border: `1px solid ${theme.palette.mode === "light" ? "#EED6B7" : "#141414"}`,
   width: "352px",
   height: "56px",
