@@ -22,22 +22,22 @@ const BootstrapDialog = styled(Dialog)(({ theme }) => ({
   },
 }));
 
-// const WalletButton = styled(Button)(({ theme }) => ({
-//   borderRadius: "100px",
-//   background: theme.palette.mode === "light" ? "#EED6B7" : "#141414",
-//   border: `1px solid ${theme.palette.mode === "light" ? "#EED6B7" : "#141414"}`,
-//   width: "352px",
-//   height: "56px",
-//   "&:hover": {
-//     background: theme.palette.mode === "light" ? "#DEC29E" : "#2D2D2D",
-//     borderColor: theme.palette.mode === "light" ? "#DEC29E" : "#313131",
-//   },
-//   "& .MuiTypography-root": {
-//     color: "#141414",
-//     fontSize: "18px",
-//     fontWeight: "500",
-//   },
-// }));
+const WalletButton = styled(Button)(({ theme }) => ({
+  borderRadius: "100px",
+  background: theme.palette.mode === "light" ? "#EED6B7" : "#141414",
+  border: `1px solid ${theme.palette.mode === "light" ? "#EED6B7" : "#141414"}`,
+  width: "352px",
+  height: "56px",
+  "&:hover": {
+    background: theme.palette.mode === "light" ? "#DEC29E" : "#2D2D2D",
+    borderColor: theme.palette.mode === "light" ? "#DEC29E" : "#313131",
+  },
+  "& .MuiTypography-root": {
+    color: "#141414",
+    fontSize: "18px",
+    fontWeight: "500",
+  },
+}));
 
 export default function ConnectWallet({ open, setOpen }: ConnectWalletProps) {
   return (
