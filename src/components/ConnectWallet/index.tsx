@@ -73,7 +73,7 @@ export default function ConnectWallet({ open, setOpen }: ConnectWalletProps) {
             Connect to your <br /> Solana Wallet
           </Typography>
         </DialogTitle>
-        {/* <IconButton
+        <IconButton
           aria-label="close"
           onClick={setOpen}
           sx={(theme) => ({
@@ -82,7 +82,7 @@ export default function ConnectWallet({ open, setOpen }: ConnectWalletProps) {
             top: 8,
             color: theme.palette.grey[500],
           })}
-        > */}
+        >
           <CloseIcon />
         </IconButton>
         <DialogContent
