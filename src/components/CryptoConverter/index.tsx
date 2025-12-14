@@ -111,7 +111,7 @@ const CryptoConverter = () => {
             <MetamaskWithText />
             <KeyboardArrowDownOutlined />
           </InputContainer>
-          {/* <InputContainer>
+          <InputContainer>
             <StyledInputBase
               value={poopeAmount}
               onChange={(event: React.ChangeEvent<HTMLInputElement>) =>
@@ -119,16 +119,16 @@ const CryptoConverter = () => {
               }
             />
             <PoopeWithText />
-          </InputContainer> */}
+          </InputContainer>
         </Stack>
-        <Stack alignItems="center">
+        {/* <Stack alignItems="center">
           <Typography variant="h6" color="textPrimary">
             1 USDT = 100 $POI
           </Typography>
           <Typography variant="h6" color="textPrimary">
             Transaction fee: 0.20$
           </Typography>
-        </Stack>
+        </Stack> */}
         <Button color="primary" variant="contained">
           {configData[role].caption}
         </Button>
