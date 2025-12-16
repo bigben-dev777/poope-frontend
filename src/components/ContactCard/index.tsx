@@ -28,7 +28,7 @@ const ContactCard = () => {
         },
       })}
     >
-      {/* <Stack
+      <Stack
         flex={1}
         sx={{
           flexDirection: "column",
@@ -36,7 +36,7 @@ const ContactCard = () => {
           padding: "24px",
           justifyContent: "center",
         }}
-      > */}
+      >
         <Stack>
           <Typography
             variant="h3"
