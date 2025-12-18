@@ -16,17 +16,17 @@ const Dashboard = () => {
         }}
       >
         <Stack flex={1}>
-          <Balance />
+          {/* <Balance />
           <Graph />
-          <News />
+          <News /> */}
         </Stack>
-        <Stack
+        {/* <Stack
           sx={{
             width: { xs: "100%", xl: "300px" },
             gap: "24px",
             flexDirection: { xs: "column", md: "row", xl: "column" },
           }}
-        >
+        > */}
           <CryptoConverter />
           <TransactionHistory />
         </Stack>
