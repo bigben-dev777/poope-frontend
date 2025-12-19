@@ -20,14 +20,14 @@ export default function SelectTop({ tabs }: Props) {
       <Select
         value={title}
         onChange={handleChange}
-        sx={{
-          background: "#ffd258",
-          border: "1px solid #000",
-          width: "100%",
-          borderRadius: "100px",
-          padding: "10px 8px 0px 8px",
-          color: "#141414",
-        }}
+        // sx={{
+        //   background: "#ffd258",
+        //   border: "1px solid #000",
+        //   width: "100%",
+        //   borderRadius: "100px",
+        //   padding: "10px 8px 0px 8px",
+        //   color: "#141414",
+        // }}
       >
         {tabs.map((tab) => (
           <MenuItem value={tab} key={tab}>
