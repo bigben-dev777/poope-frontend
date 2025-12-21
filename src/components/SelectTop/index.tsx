@@ -11,9 +11,9 @@ interface Props {
 export default function SelectTop({ tabs }: Props) {
   const [title, setTitle] = React.useState(tabs[0]);
 
-  const handleChange = (event: SelectChangeEvent) => {
-    setTitle(event.target.value);
-  };
+  // const handleChange = (event: SelectChangeEvent) => {
+  //   setTitle(event.target.value);
+  // };
 
   return (
     <FormControl sx={{ m: 1, minWidth: 120, width: "95%" }} size="small">
