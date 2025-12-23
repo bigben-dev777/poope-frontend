@@ -27,12 +27,12 @@ interface TabPanelProps {
   value: number;
 }
 
-const initIcons = [
-  <AccountCircleOutlined />,
-  <HttpsOutlined />,
-  <StickyNote2Outlined />,
-  <CallOutlined />,
-];
+// const initIcons = [
+//   <AccountCircleOutlined />,
+//   <HttpsOutlined />,
+//   <StickyNote2Outlined />,
+//   <CallOutlined />,
+// ];
 
 function TabPanel(props: TabPanelProps) {
   const { children, value, index, ...other } = props;
