@@ -11,11 +11,11 @@ import {
 } from "@mui/material";
 import { useMemo } from "react";
 
-// interface transaction {
-//   time: string;
-//   amount: number;
-//   status: "Ongoing" | "Complete" | "Failed";
-// }
+interface transaction {
+  time: string;
+  amount: number;
+  status: "Ongoing" | "Complete" | "Failed";
+}
 
 type TransactionStatusType = "Ongoing" | "Complete" | "Failed";
 
