@@ -11,7 +11,7 @@ const ProfileCard = () => {
         },
       })}
     >
-      <Stack
+      {/* <Stack
         flex={1}
         sx={{
           flexDirection: "row",
@@ -20,7 +20,7 @@ const ProfileCard = () => {
           padding: "24px",
           justifyContent: "center",
         }}
-      >
+      > */}
         <Stack sx={{ width: "100%" }}>
           <Typography
             variant="h3"
