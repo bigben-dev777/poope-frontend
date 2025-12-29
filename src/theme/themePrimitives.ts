@@ -26,7 +26,7 @@ declare module "@mui/material/styles/createPalette" {
 
 const defaultTheme = createTheme();
 
-export const branding = {
+export const brand = {
   50: "hsl(210, 100%, 95%)",
   100: "hsl(210, 100%, 92%)",
   200: "hsl(210, 100%, 80%)",
@@ -114,9 +114,9 @@ export const colorSchemes = {
         contrastText: brown[50],
       },
       info: {
-        light: branding[100],
-        main: branding[300],
-        dark: branding[600],
+        light: brand[100],
+        main: brand[300],
+        dark: brand[600],
         contrastText: gray[50],
       },
       warning: {
@@ -165,10 +165,10 @@ export const colorSchemes = {
         dark: brown[700],
       },
       info: {
-        contrastText: branding[300],
-        light: branding[500],
-        main: branding[700],
-        dark: branding[900],
+        contrastText: brand[300],
+        light: brand[500],
+        main: brand[700],
+        dark: brand[900],
       },
       warning: {
         light: orange[400],
