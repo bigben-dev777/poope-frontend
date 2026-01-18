@@ -1,7 +1,7 @@
-import LoadingSection from "@/views/Loading";
+// import LoadingSection from "@/views/Loading";
 
-const Loading = () => {
-  return <LoadingSection />;
-};
+// const Loading = () => {
+//   return <LoadingSection />;
+// };
 
-export default Loading;
+// export default Loading;
